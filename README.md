@@ -3,13 +3,15 @@
  Foi ultilizada a logica do jogo WAR para lançantos de Dados:
  O ataque e a defesa ira jogar os dados de acordo com a quantidade de exercito, se limitando a no maximo 3 dados,
  Se o atacante e/ou defesa tiver: 
-                Exercitos >= 3   - Jogara 3 Dados
-                Exercitos =  2   - Jogara 2 Dados
-                Exercitos =  1   - Jogara 1 Dados
-                Exercitos =  0   - Jogara 0 Dados (Game over)
+  *              Exercitos >= 3   - Jogara 3 Dados
+  *              Exercitos =  2   - Jogara 2 Dados
+  *              Exercitos =  1   - Jogara 1 Dados
+  *              Exercitos =  0   - Jogara 0 Dados (Game over)
+                
+![image](https://github.com/RayssaOliveiraa/Padr-o-de-Design-Template-Method/assets/87939812/99631eed-cdcb-4096-813f-d9da374dc759)
 
 
- Para testes temos duas rotas URL : 
+ Exemplo: Para testes temos duas rotas URL : 
   Ataque: http://localhost:5000/batalha/agressiva/<valor>
   Onde tem Valor, substituia por um numero inteiro na qual corresponderá a quantidade  de exército.
 
